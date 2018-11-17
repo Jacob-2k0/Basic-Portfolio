@@ -16,14 +16,15 @@ body {
 
 /*Footer*/
 #footer {
+    float : left ;
     text-align : center ;
     background : #666666 ;
     height: 60px ;
     border-color : #4aaaa5 ;
     border-style : solid ;
     border-width : 6px;
-    position : fixed;
-    margin-top : 30px ;
+    position : absolute;
+    margin-top : 85px ;
     width : 100%;
     margin-left : -14px ;
 }
@@ -95,7 +96,25 @@ a:hover {
 }
 
 /*Detail Box*/
-#details {
+#detailsI {
+    height : 700px ;
+    margin : auto;
+    background : #ffffff ;
+    border-color : #cccccc ;
+    border-style : solid ;
+    width : 960px;
+    margin-top : 22px;
+}
+#detailsP {
+    height : 700px ;
+    margin : auto;
+    background : #ffffff ;
+    border-color : #cccccc ;
+    border-style : solid ;
+    width : 960px;
+    margin-top : 22px;
+}
+#detailsC {
     height : 700px ;
     margin : auto;
     background : #ffffff ;
@@ -158,11 +177,80 @@ img {
     position : relative ;
 }
 
+.img2 {
+    float : left;
+    position : relative;
+    left : -20px;
+    margin-top : 25px;
+    opacity: 0.9;
+    z-index : 1 ;
+}
+.img3 {
+    float : right;
+    position : relative;
+    top : -270px;
+    opacity: 0.9;
+    z-index : 1 ;
+}
+.img4 {
+    float : left;
+    position : relative;
+    left : -20px;
+    top : -220px;
+    opacity: 0.9;
+    z-index : 1 ;
+}
+
+.labelBox1 {
+    float : left;
+    height : 30px;
+    width : 194px;
+    position : relative ;
+    background : #4aaaa5 ;
+    padding : 3px 3px 3px 3px;
+    font-size : 27px;
+    font-family : Georgia, 'Times New Roman', Times, serif ;
+    text-align : center ;
+    color : white ;
+    top : 90px;
+    left : -270px;
+    z-index : 2 ;
+}
+.labelBox2 {
+    float : right;
+    height : 30px;
+    width : 194px;
+    position : relative ;
+    background : #4aaaa5 ;
+    padding : 3px 3px 3px 3px;
+    font-size : 27px;
+    font-family : Georgia, 'Times New Roman', Times, serif ;
+    text-align : center ;
+    color : white ;
+    top : -136px;
+    left : 230px;
+    z-index : 2 ;
+}
+.labelBox3 {
+    float : left;
+    height : 30px;
+    width : 194px;
+    position : relative ;
+    background : #4aaaa5 ;
+    padding : 3px 3px 3px 3px;
+    font-size : 27px;
+    font-family : Georgia, 'Times New Roman', Times, serif ;
+    text-align : center ;
+    color : white ;
+    left : -270px;
+    top : -84px;
+    z-index : 2 ;
+}
 
 /*Form*/
 
 input[type=text], select {
-    width: 277% ;
+    width: 250% ;
     padding: 12px 20px ;
     margin-top: 8px ;
     margin-bottom: 8px ;
@@ -181,7 +269,7 @@ form {
 }
 
 textarea {
-    width: 277% ;
+    width: 250% ;
     height: 100px ;
     padding: 12px 20px ;
     margin-top: 8px ;
@@ -191,4 +279,18 @@ textarea {
     border-radius: 4px ;
     box-sizing: border-box ;
     font-family: Georgia, 'Times New Roman', Times, serif ;
+}
+
+.submit {
+    background : #4aaaa5 ;
+    color : white ;
+    font-family : Georgia, 'Times New Roman', Times, serif ;
+    padding : 8px 20px 8px 20px ;
+    font-size : 16px;
+    border : 0 ;
+}
+
+label {
+    font-family : Georgia, 'Times New Roman', Times, serif ;
+    color : #666;
 }
